@@ -4,10 +4,7 @@ import sys
 
 def main():
     ip = sys.argv[1]
-    if validate(ip):
-        print(True)
-    else:
-        print(False)
+    validate(ip)
 
 
 def validate(ip):
